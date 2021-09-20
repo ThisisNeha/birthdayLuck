@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+:root{
+  --primary: rgb(2, 2, 112);
+  --bold: 600;
+}
+
+body{
+  background-image: url("./bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto Slab', serif;
+  }
+
+.container{
+font-size: x-large;
+}
+
+.main{
+  display:flex;
+  color: var(--primary);
+  flex-direction: column;
+  align-items: center;
+  margin:40px;
+  font-weight: var(--bold);
+}
+
+/* label And inputs */
+
+label{
+  margin-bottom: 5px;
+}
+
+input{
+  margin: 0.7rem;
+  padding: 8px;
+  width: 20%;
+  border-radius: 5px;
+  border: 2px solid var(--primary);
+}
+
+.privacy-note{
+  font-size: small;
+  margin-top: 0;
+}
+
+#lucky-no{
+  padding: 9px;
+}
+
+/* button */
+
+#btn{
+  cursor: pointer;
+  padding: 10px 15px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: var(--primary);
+  color: white;
+  border: 2px solid rgb(198, 250, 252);
+}
+
+#btn:hover{
+  text-shadow: 1px 1px rgb(147, 146, 255);
+  box-shadow: 1px 1px var(--primary);
+}
+
+#output{
+  font-size: 1.5rem;
+  font-weight: var(--bold);
+  color: rgb(228, 6, 91);
+}
+
+/* footer */
+
+footer{
+  margin: 2rem;
+}
+
+.copy-right{
+  font-size: 0.9rem;
+  color: #0c0a81;
+}
+
+img{
+  width: 23%;
+}
