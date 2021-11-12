@@ -9,6 +9,7 @@ function calculateSum(dob) {
   let sum = 0;
   for (let i = 0; i < dob.length; i++) {
     sum = sum + Number(dob.charAt(i));
+    console.log(dob.charAt(i));
   }
   return sum;
 }
